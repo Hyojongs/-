@@ -1,0 +1,21 @@
+body {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-box {
+    margin: 10px 0 20px 0;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td,
+tr {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid;
+}

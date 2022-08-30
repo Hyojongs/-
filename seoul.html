@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+      src="./jquery-3.6.0.min.js" 
+    ></script>
+    <link rel="stylesheet" href="./popup.css">
+</head>
+<body>
+    <div class="question-box">
+
+        <h2>서울시 따릉이 현황</h2>
+        <hr>
+        <input type="text" id="name" placeholder="필요한 따릉이 숫자를 입력">
+        <button id="eventbtn">검색</button>
+        <button id="updatebtn">전체보기</button>
+        <table>
+            <thead>
+                <tr>
+                    <td>위치</td>
+                    <td>거치대 개수</td>
+                    <td>따릉이 수</td>
+                </tr>
+            </thead>
+            <tbody id="name-q1">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./background.js"></script>
+</body>
+</html>
